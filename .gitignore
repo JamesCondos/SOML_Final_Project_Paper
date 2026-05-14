@@ -1,0 +1,13 @@
+# Ignore everything by default
+*
+
+# Keep this ignore file tracked
+!.gitignore
+
+# Allow the project folder so specific files inside it can be unignored
+!Final_Project/
+Final_Project/*
+
+# Files to push
+!Final_Project/SOML_LLM_project.ipynb
+!Final_Project/2306.00978v6 (1).pdf
